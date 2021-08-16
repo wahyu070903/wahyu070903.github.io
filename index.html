@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,800&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+		<link rel="stylesheet" href="script/splide-2.4.21/dist/css/splide.min.css">
+		<link href="style/main-style.css" rel="stylesheet">
+	</head>
+	<body>
+		<div id="app">
+			<div class="header">
+				<nav class="navigation">
+					<div class="nav-logo">
+						<img src="asset/images/w-logo.png">
+					</div>
+					<div class="nav-option">
+						<a href="#" data-target="home-panel" class="nav-link link-active"><i class="fas fa-home fa-lg"></i></a>
+						<a href="#" data-target="personal-panel" class="nav-link"><i class="fas fa-user fa-lg"></i></a>
+						<a href="#" data-target="project-panel" class="nav-link"><i class="fas fa-eye fa-lg"></i></a>
+						<a href="#" data-target="skill-panel" class="nav-link"><i class="fas fa-desktop"></i></a>
+						<a href="#" data-target="contact-panel" class="nav-link"><i class="fas fa-envelope fa-lg"></i></a>
+					</div>
+					<div class = "nav-social">
+						<a href="#"><i class="fab fa-instagram"></i></a>
+						<a href="#"><i class="fab fa-facebook-square"></i></a>
+						<a href="#"><i class="fab fa-linkedin"></i></a>
+						<a href="#"><i class="fab fa-discord"></i></a>
+					</div>
+				</nav>
+			</div>
+			<div class="content">
+				<div class="home-panel">
+					<div class="intro-panel">
+						<h1 class="intro-text">Hello<span class="dot">.</span>
+						<br>I'am Wahyu<br>Dwi Ahmadi</h1>
+						<p>Full stack web developer, Freelancer and Electronic engineer</p>
+						<button class="contact-btn">CONTACT ME</button>
+					</div>
+					<div class="image-panel">
+						<img class="main-image" src="asset/images/photo-portofolio.png">
+						<img class="stack-img" src="asset/images/stack.png">
+						<img class="circle-img" src="asset/images/circle.png">
+					</div>
+				</div>
+				<div class="personal-panel">
+					<div class="column-1">
+						<h4>Introduction</h4>
+						<p>My name Wahyu Dwi Ahmadi i'am from surabaya, indonesia, i am a student at 01 Purwosari focational high school at mechatronic departement, but i have passion in programming starting from i entered high school, i started by studying c and c++ language at first time and over time i can develop website using php, javascript and other, apart from programming i also have ability in design, electronic, industrial control, pneumatic, and other. </p>
+					</div>
+					<div class="column-2">
+						<div class="card">
+						  	<div class="card-header">
+						    	Ability
+						  	</div>
+						  	<div class="card-body">
+						    	<h5 class="card-title">Technology</h5>
+						    	<p class="card-text text-start">Coding, design especially web development and illustration</p>
+						  </div>
+						</div>
+						<div class="card">
+						  	<div class="card-header">
+						    	Ability
+						  	</div>
+						  	<div class="card-body">
+						    	<h5 class="card-title">Mechatronic</h5>
+						    	<p class="card-text text-start">Coding, design especially programablo logic controller, microcontroller, circuit design and CAD</p>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<div class="project-panel">
+					<h4>Projects</h4>
+					<div class="project-container">
+						<div class="slide-container">
+							<div class="splide">
+								<div class="splide__track">
+									<ul class="splide__list">
+										<li class="splide__slide myslide" data-detail = "1">
+											<div class="slide-item">
+												<img src="asset/images/blog-app.png" class="d-block">
+											</div>
+										</li>
+										<li class="splide__slide myslide" data-detail = "2">
+											<div class="slide-item">
+												<img src="asset/images/iot-dashboard.png" class="d-block ">
+											</div>
+										</li>
+										<li class="splide__slide myslide" data-detail = "3">
+											<div class="slide-item">
+												<img src="asset/images/admin-panel.png" class="d-block">
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="card project-detail detail-active" style="width: 18rem;" data-detail = "1">
+							<div class="card-logo">
+								<i class="fas fa-info position-absolute top-50 start-50 translate-middle"></i>
+							</div>
+						  	<div class="card-body">
+						    	<h5 class="card-title">Blog apps</h5>
+						    	<p class="text-start">Create blog apps with admin panel to manage content like create new content,delete,update and other</p>
+						  	</div>
+						</div>
+						<div class="card project-detail" style="width: 18rem;" data-detail = "2">
+						  	<div class="card-logo">
+								<i class="fas fa-info position-absolute top-50 start-50 translate-middle"></i>
+							</div>
+						  	<div class="card-body">
+						    	<h5 class="card-title">Iot dashboard</h5>
+						    	<p class="text-start">Create Iot dashboard for monitoring power using ajax to query data from database and display it into website</p>
+						  	</div>
+						</div>
+							<div class="card project-detail" style="width: 18rem;" data-detail = "3">
+						  	<div class="card-logo">
+						  		<i class="fas fa-info position-absolute top-50 start-50 translate-middle"></i>
+							</div>
+						  	<div class="card-body">
+						    	<h5 class="card-title">Rich Text editor</h5>
+						    	<p class="text-start">Rich text editor integrated with CkEditor4 to create multi function editor for blog apps</p>
+						  	</div>
+						</div>
+					</div>
+				</div>
+				<div class="skill-panel">
+					<div class="skill-text">
+						<h4>Skills</h4>
+					</div>
+					<div class="skill-container">
+						<div class="skill-card">
+							<div class="skill-img">
+								<img src="asset/images/c-logo.png">
+							</div>
+							<div class="progress">
+							  	<div class="progress-bar" role="progressbar" style="max-width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
+							</div>
+						</div>
+						<div class="skill-card">
+							<div class="skill-img">
+								<img src="asset/images/cpp-logo.png">
+							</div>
+							<div class="progress">
+							  	<div class="progress-bar" role="progressbar" style="max-width: 60%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">60%</div>
+							</div>
+						</div>
+						<div class="skill-card">
+							<div class="skill-img">
+								<img src="asset/images/html-logo.png">
+							</div>
+							<div class="progress">
+							  	<div class="progress-bar" role="progressbar" style="max-width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">90%</div>
+							</div>
+						</div>
+						<div class="skill-card">
+							<div class="skill-img">
+								<img src="asset/images/css-logo.png">
+							</div>
+							<div class="progress">
+							  	<div class="progress-bar" role="progressbar" style="max-width: 85%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">85%</div>
+							</div>
+						</div>
+						<div class="skill-card">
+							<div class="skill-img">
+								<img src="asset/images/js-logo.png">
+							</div>
+							<div class="progress">
+							  	<div class="progress-bar" role="progressbar" style="max-width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
+							</div>
+						</div>
+						<div class="skill-card">
+							<div class="skill-img">
+								<img src="asset/images/php-logo.png">
+							</div>
+							<div class="progress">
+							  	<div class="progress-bar" role="progressbar" style="max-width: 85%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">85%</div>
+							</div>
+						</div>
+						<div class="skill-card">
+							<div class="skill-img">
+								<img src="asset/images/laravel-logo.png">
+							</div>
+							<div class="progress">
+							  	<div class="progress-bar" role="progressbar" style="max-width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
+							</div>
+						</div>
+						<div class="skill-card">
+							<div class="skill-img">
+								<img src="asset/images/vue-logo.png">
+							</div>
+							<div class="progress">
+							  	<div class="progress-bar" role="progressbar" style="max-width:50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">50%</div>
+							</div>
+						</div>
+						<div class="skill-card">
+							<div class="skill-img">
+								<img src="asset/images/python-logo.png">
+							</div>
+							<div class="progress">
+							  	<div class="progress-bar" role="progressbar" style="max-width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">75%</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="contact-panel">
+					<div class="contact-text">
+						<p>Hi you can contact me with available contact list below</p>
+					</div>
+					<div class="contact-container">
+						<div class="card" style="width: 18rem;">
+							<div class="card-logo">
+								<i class="fas fa-phone-alt position-absolute top-50 start-50 translate-middle"></i>
+							</div>
+							<div class="card-body">
+							   <p class="card-text">+6285706160935</p>
+							</div>
+						</div>
+						<div class="card" style="width: 18rem;">
+							<div class="card-logo">
+								<i class="fab fa-whatsapp position-absolute top-50 start-50 translate-middle"></i>
+							</div>
+							<div class="card-body">
+							   <p class="card-text">+6285706160935</p>
+							</div>
+						</div>
+						<div class="card" style="width: 18rem;">
+							<div class="card-logo">
+								<i class="far fa-envelope position-absolute top-50 start-50 translate-middle"></i>
+							</div>
+							<div class="card-body">
+							   <p class="card-text">wahyudwiahmadi793@gmail.com</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer">
+					<img src="asset\images\w-logo.png">
+					<p>Thank you for your attention</p>
+					<div class="social-footer">
+						<a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+						<a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
+						<a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+						<a href="#"><i class="fab fa-discord fa-2x"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+		<script src="script/splide-2.4.21/dist/js/splide.min.js"></script>
+		<script src="script/main-script.js"></script>
+	</body>
+</html>
